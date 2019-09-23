@@ -8,7 +8,7 @@ require 'pry'
     sequence << (n + n)
     y = 0
     z = 1
-      10.times do
+      n.times do
         sequence << (sequence[y] + sequence[z])
         y += 1
         z += 1
