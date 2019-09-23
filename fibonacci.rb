@@ -13,7 +13,7 @@ require 'pry'
         y += 1
         z += 1
       end
-    puts sequence
+    puts sequence.last
   end
 
   fibonacci(1)
